@@ -30,6 +30,7 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
+    <div className={styles.perspectiveDecoration}></div>
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <div className={styles.characterWrapper}>
           <Character
@@ -87,7 +88,6 @@ function App() {
           />
         </div>
       </MaxWidthWrapper>
-
     </main>
   );
 }
